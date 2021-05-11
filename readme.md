@@ -79,3 +79,6 @@ See Model, Fizzbuzz, and Dockerfile logic below.
 2nd line sets name as argument to the generated jar by maven  
 3rd line copies jar file to the docker image  
 4th line runs jar file in the container
+
+[comment]: <> (docker command to create db)
+docker run --name mysql-instance -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=myavaloqdb  -d mysql:5.7

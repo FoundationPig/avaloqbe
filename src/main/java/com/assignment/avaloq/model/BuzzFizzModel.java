@@ -13,6 +13,10 @@ public class BuzzFizzModel {
         this.fizzbuzz = fizzbuzz;
     }
 
+    public BuzzFizzModel() {
+
+    }
+
     public List<Integer> getFizz() {
         return fizz;
     }
